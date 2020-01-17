@@ -8,7 +8,7 @@ aliases: ["_SET_VEHICLE_ENGINE_POWER_MULTIPLIER"]
 // 0x93A3996368C94158 0xE943B09C
 void MODIFY_VEHICLE_TOP_SPEED(Vehicle vehicle, float value);
 ```
-
+This Isnt Just "top" speed, it also changes the acceleration. not sure why it was renamed.
 ```
 Vehicle power multiplier.  
 Does not have to be looped each frame. Can be set once.  
